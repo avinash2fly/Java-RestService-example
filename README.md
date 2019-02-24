@@ -3,6 +3,15 @@ Java-RestService-example
 
 ## Steps
 
+### Change URL 
+FilePath: /DR-RestServices/src/com/avinash/util/Utils.java
+
+line 30 
+```
+public static Connection getConnection() throws SQLException {
+		return DriverManager.getConnection("jdbc:mysql://localhost:3306/ny_cab_data", "root", "root");
+	}
+```
 ### Configure tomcat
 
 ### add project to tomcat

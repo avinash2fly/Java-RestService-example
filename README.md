@@ -21,6 +21,7 @@ public static Connection getConnection() throws SQLException {
 <!-- driverManagerProtection="false"  to avoid JNDI setup and run locally-->
   <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" driverManagerProtection="false"/>
 ```
+Note: It sometime create some problem while getting connection, so restart the server or properly create JNDI connection.
 
 ### API call [Post Service]
 

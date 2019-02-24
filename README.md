@@ -4,7 +4,7 @@ Java-RestService-example
 ## Steps
 
 ### Change URL 
-FilePath: /DR-RestServices/src/com/avinash/util/Utils.java
+FilePath: /Java-RestService-example/src/com/avinash/util/Utils.java
 
 line 30 
 ```
@@ -28,8 +28,8 @@ Note: It sometime create some problem while getting connection, so restart the s
 #### Single Driver
 
 [screenshot](single-driver-example.png)
-
-URL: http://localhost:8080/DR-RestServices/helloworld/getcabcount
+<ProjectName>: Java-RestService-example
+URL: http://localhost:8080/<ProjectName>/helloworld/getcabcount
 
 input
 ```
@@ -52,7 +52,8 @@ output
 
 [screenshot](multiple-driver-example.png)
 
-URL: http://localhost:8080/DR-RestServices/helloworld/getcabscount
+<ProjectName>: Java-RestService-example
+URL: http://localhost:8080/<ProjectName>/helloworld/getcabscount
 
 input
 

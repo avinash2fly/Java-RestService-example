@@ -26,6 +26,8 @@ public static Connection getConnection() throws SQLException {
 
 #### Single Driver
 
+[screenshot](single-driver-example.png)
+
 URL: http://localhost:8080/DR-RestServices/helloworld/getcabcount
 
 input
@@ -46,6 +48,8 @@ output
 
 
 #### Multiple driver
+
+[screenshot](multiple-driver-example.png)
 
 URL: http://localhost:8080/DR-RestServices/helloworld/getcabscount
 

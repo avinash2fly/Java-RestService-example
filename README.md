@@ -28,8 +28,8 @@ Note: It sometime create some problem while getting connection, so restart the s
 #### Single Driver
 
 [screenshot](single-driver-example.png)
-<ProjectName>: Java-RestService-example
-URL: http://localhost:8080/<ProjectName>/helloworld/getcabcount
+"ProjectName" : Java-RestService-example
+URL: http://localhost:8080/"ProjectName"/helloworld/getcabcount
 
 input
 ```
@@ -52,8 +52,8 @@ output
 
 [screenshot](multiple-driver-example.png)
 
-<ProjectName>: Java-RestService-example
-URL: http://localhost:8080/<ProjectName>/helloworld/getcabscount
+"ProjectName": Java-RestService-example
+URL: http://localhost:8080/"ProjectName"/helloworld/getcabscount
 
 input
 

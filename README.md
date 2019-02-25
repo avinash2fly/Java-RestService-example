@@ -13,14 +13,6 @@ public static Connection getConnection() throws SQLException {
 	}
 ```
 
-Note: I failed to create the end point for clearing the cache even though I created the function to clear it.
-
-Java-RestService-example/src/com/avinash/util/Utils.java -> line 15 helper code to clear cache.
-```
-public static void clearCache() {
-		cache.clear();
-	}
-```
 ### Configure tomcat
 
 ### add project to tomcat
@@ -93,4 +85,16 @@ output
     ]
 }
 ```
+
+#### clear cache [GET]
+
+ProjectName": Java-RestService-example
+
+URL: http://localhost:8080/"ProjectName"/helloworld/clearCache
+
+output
+```
+cache cleared
+```
+
 

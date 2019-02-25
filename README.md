@@ -88,7 +88,7 @@ output
 
 #### clear cache [GET]
 
-ProjectName": Java-RestService-example
+"ProjectName": Java-RestService-example
 
 URL: http://localhost:8080/"ProjectName"/helloworld/clearCache
 

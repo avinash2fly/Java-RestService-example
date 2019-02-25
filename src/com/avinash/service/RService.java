@@ -11,6 +11,10 @@ import com.avinash.util.Utils;
 public class RService {
 
 	private static RDao dao = new RDao();
+	
+	public void clearCache() {
+		Utils.clearCache();
+	}
 
 	public int getCabCount(String driver, String date, boolean cache) throws Exception {
 		if (Utils.getData(driver) != -1 && !cache) {

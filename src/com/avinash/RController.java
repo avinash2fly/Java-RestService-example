@@ -26,6 +26,14 @@ public class RController {
 	public String getGreetings(@Context HttpHeaders httpHeaders, @PathParam("name") String name) {
 		return "Hello World" + name;
 	}
+	
+	@GET
+	@Produces(MediaType.TEXT_PLAIN)
+	@Path("/clearCache")
+	public Response clearcache(@Context HttpHeaders httpHeaders) {
+		service.clearCache();
+		return Response.ok("cache cleared").build();
+	}
 
 	@POST
 	@Produces(MediaType.APPLICATION_JSON)
